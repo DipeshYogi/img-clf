@@ -3,9 +3,9 @@
 set -e
 
 # TODO: Set to URL of git repo.
-PROJECT_GIT_URL='https://github.com/DipeshYogi/img-classifier.git'
+PROJECT_GIT_URL='https://github.com/DipeshYogi/img-clf'
 
-PROJECT_BASE_PATH='/usr/local/apps/profiles-rest-api'
+PROJECT_BASE_PATH='/usr/local/apps/img-clf'
 
 echo "Installing dependencies..."
 apt-get update
