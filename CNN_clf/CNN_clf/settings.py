@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'n!fm7r@w+xz7y-atd+q-@#xeo11wpb@y$ib2n)4$e#k&st3q^k'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = bool(int(os.environ,get('DEBUG', 1)))  #setup inside supervisor file in deploy folder.
+DEBUG = bool(int(os.environ.get('DEBUG', 1)))  #setup inside supervisor file in deploy folder.
 
 ALLOWED_HOSTS = []
 
